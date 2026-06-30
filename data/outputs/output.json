@@ -1,0 +1,316 @@
+[
+  {
+    "full_name": "Jane Doe",
+    "emails": [
+      "jane.doe@gmail.com"
+    ],
+    "phones": [
+      "+919876543210"
+    ],
+    "headline": "Software Engineer",
+    "years_experience": 4.0,
+    "location": {
+      "city": "San Francisco",
+      "region": null,
+      "country": null,
+      "country_code": null
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/janedoe",
+      "github": "https://github.com/octocat",
+      "portfolio": "https://github.blog",
+      "other": []
+    },
+    "skills": [
+      "HTML",
+      "CSS",
+      "Ruby"
+    ],
+    "overall_confidence": 0.88,
+    "provenance": {
+      "full_name": {
+        "field": "full_name",
+        "value": "Jane Doe",
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "headline": {
+        "field": "headline",
+        "value": "Software Engineer",
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "years_experience": {
+        "field": "years_experience",
+        "value": 4.0,
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "emails": {
+        "field": "emails",
+        "value": [
+          "jane.doe@gmail.com"
+        ],
+        "source": [
+          "recruiter_csv"
+        ],
+        "method": "union_deduplicated"
+      },
+      "phones": {
+        "field": "phones",
+        "value": [
+          "+919876543210"
+        ],
+        "source": [
+          "recruiter_csv"
+        ],
+        "method": "union_deduplicated"
+      },
+      "location": {
+        "field": "location",
+        "value": {
+          "city": "San Francisco",
+          "region": null,
+          "country": null,
+          "country_code": null
+        },
+        "source": "github",
+        "method": "priority_pick"
+      },
+      "links": {
+        "field": "links",
+        "value": {
+          "linkedin": "https://linkedin.com/in/janedoe",
+          "github": "https://github.com/octocat",
+          "portfolio": "https://github.blog",
+          "other": []
+        },
+        "source": {
+          "linkedin": "recruiter_csv",
+          "github": "recruiter_csv",
+          "portfolio": "github"
+        },
+        "method": "merge_by_type"
+      },
+      "skills": {
+        "field": "skills",
+        "value": [
+          "HTML",
+          "CSS",
+          "Ruby"
+        ],
+        "source": [
+          "github"
+        ],
+        "method": "union_weighted"
+      }
+    },
+    "candidate_id": "fe32f045-826d-4c6b-953a-461d54c6bbdb",
+    "_valid": true
+  },
+  {
+    "full_name": "John Smith",
+    "emails": [
+      "john.smith@email.com"
+    ],
+    "phones": [
+      "+919876501234"
+    ],
+    "headline": "ML Engineer",
+    "years_experience": 5.0,
+    "location": {
+      "city": "Portland",
+      "region": "OR",
+      "country": null,
+      "country_code": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": "https://github.com/torvalds",
+      "portfolio": null,
+      "other": []
+    },
+    "skills": [
+      "C",
+      "C++",
+      "OpenSCAD"
+    ],
+    "overall_confidence": 0.88,
+    "provenance": {
+      "full_name": {
+        "field": "full_name",
+        "value": "John Smith",
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "headline": {
+        "field": "headline",
+        "value": "ML Engineer",
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "years_experience": {
+        "field": "years_experience",
+        "value": 5.0,
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "emails": {
+        "field": "emails",
+        "value": [
+          "john.smith@email.com"
+        ],
+        "source": [
+          "recruiter_csv"
+        ],
+        "method": "union_deduplicated"
+      },
+      "phones": {
+        "field": "phones",
+        "value": [
+          "+919876501234"
+        ],
+        "source": [
+          "recruiter_csv"
+        ],
+        "method": "union_deduplicated"
+      },
+      "location": {
+        "field": "location",
+        "value": {
+          "city": "Portland",
+          "region": "OR",
+          "country": null,
+          "country_code": null
+        },
+        "source": "github",
+        "method": "priority_pick"
+      },
+      "links": {
+        "field": "links",
+        "value": {
+          "linkedin": null,
+          "github": "https://github.com/torvalds",
+          "portfolio": null,
+          "other": []
+        },
+        "source": {
+          "github": "recruiter_csv"
+        },
+        "method": "merge_by_type"
+      },
+      "skills": {
+        "field": "skills",
+        "value": [
+          "C",
+          "C++",
+          "OpenSCAD"
+        ],
+        "source": [
+          "github"
+        ],
+        "method": "union_weighted"
+      }
+    },
+    "candidate_id": "6c614414-47c6-4ff1-b7f6-9719ac5f37f2",
+    "_valid": true
+  },
+  {
+    "full_name": "Emily Brown",
+    "emails": null,
+    "phones": [
+      "+14155552671"
+    ],
+    "headline": "Data Scientist",
+    "years_experience": 3.0,
+    "location": null,
+    "links": {
+      "linkedin": "https://linkedin.com/in/emilybrown",
+      "github": "https://github.com/defunkt",
+      "portfolio": "http://chriswanstrath.com",
+      "other": []
+    },
+    "skills": [
+      "Ruby",
+      "JavaScript",
+      "Emacs Lisp",
+      "Python",
+      "C",
+      "CoffeeScript",
+      "Io",
+      "HTML",
+      "CSS",
+      "PHP"
+    ],
+    "overall_confidence": 0.47,
+    "provenance": {
+      "full_name": {
+        "field": "full_name",
+        "value": "Emily Brown",
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "headline": {
+        "field": "headline",
+        "value": "Data Scientist",
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "years_experience": {
+        "field": "years_experience",
+        "value": 3.0,
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "phones": {
+        "field": "phones",
+        "value": [
+          "+14155552671"
+        ],
+        "source": [
+          "recruiter_csv"
+        ],
+        "method": "union_deduplicated"
+      },
+      "links": {
+        "field": "links",
+        "value": {
+          "linkedin": "https://linkedin.com/in/emilybrown",
+          "github": "https://github.com/defunkt",
+          "portfolio": "http://chriswanstrath.com",
+          "other": []
+        },
+        "source": {
+          "linkedin": "recruiter_csv",
+          "github": "recruiter_csv",
+          "portfolio": "github"
+        },
+        "method": "merge_by_type"
+      },
+      "skills": {
+        "field": "skills",
+        "value": [
+          "Ruby",
+          "JavaScript",
+          "Emacs Lisp",
+          "Python",
+          "C",
+          "CoffeeScript",
+          "Io",
+          "HTML",
+          "CSS",
+          "PHP"
+        ],
+        "source": [
+          "github"
+        ],
+        "method": "union_weighted"
+      }
+    },
+    "candidate_id": "dbbbd151-654d-4278-822d-4e8b7f6b0faa",
+    "_valid": false,
+    "_errors": [
+      "Missing required field: emails"
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "full_name": "Jane Doe",
+    "primary_email": "jane.doe@gmail.com",
+    "phone": "+919876543210",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Ruby"
+    ],
+    "candidate_id": "48ae59dd-4da1-49d0-9d73-1a9181d56050",
+    "_valid": true
+  },
+  {
+    "full_name": "John Smith",
+    "primary_email": "john.smith@email.com",
+    "phone": "+919876501234",
+    "skills": [
+      "C",
+      "C++",
+      "OpenSCAD"
+    ],
+    "candidate_id": "3dd230e7-dde8-485d-9787-115c0955be2e",
+    "_valid": true
+  },
+  {
+    "full_name": "Emily Brown",
+    "phone": "+14155552671",
+    "skills": [
+      "Ruby",
+      "JavaScript",
+      "Emacs Lisp",
+      "Python",
+      "C",
+      "CoffeeScript",
+      "Io",
+      "HTML",
+      "CSS",
+      "PHP"
+    ],
+    "candidate_id": "18fd05d4-46a2-4f59-9e6d-bdba8639f402",
+    "_valid": false,
+    "_errors": [
+      "Missing required field: primary_email"
+    ]
+  }
+]
