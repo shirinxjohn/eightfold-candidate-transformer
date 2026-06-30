@@ -176,4 +176,4 @@ eightfold-candidate-transformer/
 
 Approximately 2-minute walkthrough of the complete pipeline:
 
-**Video:** [Paste YouTube / Drive link here]
+**Video:** https://youtu.be/gW-VheUts4Y?si=FW_ESRkwRLc_pFoL
