@@ -8,19 +8,7 @@
       "CSS",
       "Ruby"
     ],
-    "candidate_id": "48ae59dd-4da1-49d0-9d73-1a9181d56050",
-    "_valid": true
-  },
-  {
-    "full_name": "John Smith",
-    "primary_email": "john.smith@email.com",
-    "phone": "+919876501234",
-    "skills": [
-      "C",
-      "C++",
-      "OpenSCAD"
-    ],
-    "candidate_id": "3dd230e7-dde8-485d-9787-115c0955be2e",
+    "candidate_id": "9ab23f79-1b13-4dba-b488-34bb3a822759",
     "_valid": true
   },
   {
@@ -38,10 +26,22 @@
       "CSS",
       "PHP"
     ],
-    "candidate_id": "18fd05d4-46a2-4f59-9e6d-bdba8639f402",
+    "candidate_id": "f82f5de0-c639-4835-8aa2-189aa393c2e3",
     "_valid": false,
     "_errors": [
       "Missing required field: primary_email"
     ]
+  },
+  {
+    "full_name": "John Smith",
+    "primary_email": "john.smith@email.com",
+    "phone": "+919876501234",
+    "skills": [
+      "C",
+      "C++",
+      "OpenSCAD"
+    ],
+    "candidate_id": "9bfb23ea-ea7a-4c64-a904-a85d9ea5fde1",
+    "_valid": true
   }
 ]

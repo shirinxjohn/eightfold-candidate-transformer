@@ -105,8 +105,106 @@
         "method": "union_weighted"
       }
     },
-    "candidate_id": "fe32f045-826d-4c6b-953a-461d54c6bbdb",
+    "candidate_id": "dc64f248-7a90-408f-9e0f-9dd9ef992c9e",
     "_valid": true
+  },
+  {
+    "full_name": "Emily Brown",
+    "emails": null,
+    "phones": [
+      "+14155552671"
+    ],
+    "headline": "Data Scientist",
+    "years_experience": 3.0,
+    "location": null,
+    "links": {
+      "linkedin": "https://linkedin.com/in/emilybrown",
+      "github": "https://github.com/defunkt",
+      "portfolio": "http://chriswanstrath.com",
+      "other": []
+    },
+    "skills": [
+      "Ruby",
+      "JavaScript",
+      "Emacs Lisp",
+      "Python",
+      "C",
+      "CoffeeScript",
+      "Io",
+      "HTML",
+      "CSS",
+      "PHP"
+    ],
+    "overall_confidence": 0.47,
+    "provenance": {
+      "full_name": {
+        "field": "full_name",
+        "value": "Emily Brown",
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "headline": {
+        "field": "headline",
+        "value": "Data Scientist",
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "years_experience": {
+        "field": "years_experience",
+        "value": 3.0,
+        "source": "recruiter_csv",
+        "method": "priority_pick"
+      },
+      "phones": {
+        "field": "phones",
+        "value": [
+          "+14155552671"
+        ],
+        "source": [
+          "recruiter_csv"
+        ],
+        "method": "union_deduplicated"
+      },
+      "links": {
+        "field": "links",
+        "value": {
+          "linkedin": "https://linkedin.com/in/emilybrown",
+          "github": "https://github.com/defunkt",
+          "portfolio": "http://chriswanstrath.com",
+          "other": []
+        },
+        "source": {
+          "linkedin": "recruiter_csv",
+          "github": "recruiter_csv",
+          "portfolio": "github"
+        },
+        "method": "merge_by_type"
+      },
+      "skills": {
+        "field": "skills",
+        "value": [
+          "Ruby",
+          "JavaScript",
+          "Emacs Lisp",
+          "Python",
+          "C",
+          "CoffeeScript",
+          "Io",
+          "HTML",
+          "CSS",
+          "PHP"
+        ],
+        "source": [
+          "github"
+        ],
+        "method": "union_weighted"
+      }
+    },
+    "candidate_id": "7adce5db-32a4-4b4f-92de-3c79d624ede3",
+    "_valid": false,
+    "_errors": [
+      "Missing required field: emails"
+    ]
   },
   {
     "full_name": "John Smith",
@@ -212,105 +310,7 @@
         "method": "union_weighted"
       }
     },
-    "candidate_id": "6c614414-47c6-4ff1-b7f6-9719ac5f37f2",
+    "candidate_id": "3ff36c74-b57b-4394-b816-1bf4e8a4ed17",
     "_valid": true
-  },
-  {
-    "full_name": "Emily Brown",
-    "emails": null,
-    "phones": [
-      "+14155552671"
-    ],
-    "headline": "Data Scientist",
-    "years_experience": 3.0,
-    "location": null,
-    "links": {
-      "linkedin": "https://linkedin.com/in/emilybrown",
-      "github": "https://github.com/defunkt",
-      "portfolio": "http://chriswanstrath.com",
-      "other": []
-    },
-    "skills": [
-      "Ruby",
-      "JavaScript",
-      "Emacs Lisp",
-      "Python",
-      "C",
-      "CoffeeScript",
-      "Io",
-      "HTML",
-      "CSS",
-      "PHP"
-    ],
-    "overall_confidence": 0.47,
-    "provenance": {
-      "full_name": {
-        "field": "full_name",
-        "value": "Emily Brown",
-        "source": "recruiter_csv",
-        "method": "priority_pick"
-      },
-      "headline": {
-        "field": "headline",
-        "value": "Data Scientist",
-        "source": "recruiter_csv",
-        "method": "priority_pick"
-      },
-      "years_experience": {
-        "field": "years_experience",
-        "value": 3.0,
-        "source": "recruiter_csv",
-        "method": "priority_pick"
-      },
-      "phones": {
-        "field": "phones",
-        "value": [
-          "+14155552671"
-        ],
-        "source": [
-          "recruiter_csv"
-        ],
-        "method": "union_deduplicated"
-      },
-      "links": {
-        "field": "links",
-        "value": {
-          "linkedin": "https://linkedin.com/in/emilybrown",
-          "github": "https://github.com/defunkt",
-          "portfolio": "http://chriswanstrath.com",
-          "other": []
-        },
-        "source": {
-          "linkedin": "recruiter_csv",
-          "github": "recruiter_csv",
-          "portfolio": "github"
-        },
-        "method": "merge_by_type"
-      },
-      "skills": {
-        "field": "skills",
-        "value": [
-          "Ruby",
-          "JavaScript",
-          "Emacs Lisp",
-          "Python",
-          "C",
-          "CoffeeScript",
-          "Io",
-          "HTML",
-          "CSS",
-          "PHP"
-        ],
-        "source": [
-          "github"
-        ],
-        "method": "union_weighted"
-      }
-    },
-    "candidate_id": "dbbbd151-654d-4278-822d-4e8b7f6b0faa",
-    "_valid": false,
-    "_errors": [
-      "Missing required field: emails"
-    ]
   }
 ]
