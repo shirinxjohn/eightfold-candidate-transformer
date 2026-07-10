@@ -1,6 +1,6 @@
 # Multi-Source Candidate Data Transformer
 
-Deterministic candidate data transformation pipeline developed for the Eightfold Engineering Intern technical assessment.
+Deterministic candidate data transformation pipeline.
 
 ## Overview
 
@@ -172,8 +172,3 @@ eightfold-candidate-transformer/
 
 ---
 
-## Demo Video
-
-Approximately 2-minute walkthrough of the complete pipeline:
-
-**Video:** https://youtu.be/gW-VheUts4Y?si=FW_ESRkwRLc_pFoL
